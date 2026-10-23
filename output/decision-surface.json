@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-12T00:00:00+00:00",
+  "source_mode": "synthetic-fixture",
+  "summary": {
+    "input_records": 12,
+    "normalised_records": 12,
+    "duplicates_collapsed": 1,
+    "unique_records": 11,
+    "hard_gate_rejections": 5,
+    "eligible_records": 6,
+    "review_queue": 5
+  },
+  "eligible": [
+    {
+      "source_id": "fixture-001",
+      "title": "Director, Professional Services EMEA",
+      "company": "Beacon Cloud",
+      "location": "London, United Kingdom",
+      "work_model": "Hybrid",
+      "family": "Professional Services",
+      "classification": "Apply",
+      "score": 9.2,
+      "fit": 8.8,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-11T08:00:00Z",
+      "url": "https://example.test/jobs/beacon-ps-emea",
+      "explanation": "Professional Services and practice leadership. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Professional Services and practice leadership",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-005",
+      "title": "Director of Transformation Consulting",
+      "company": "Harbour Advisory",
+      "location": "Greater London",
+      "work_model": "Hybrid",
+      "family": "Professional Services",
+      "classification": "Apply",
+      "score": 9.1,
+      "fit": 8.8,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-08T08:00:00Z",
+      "url": "https://example.test/jobs/harbour-transformation",
+      "explanation": "Professional Services and practice leadership. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Professional Services and practice leadership",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [
+        "fixture-006"
+      ],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-010",
+      "title": "Practice Director, Enterprise Architecture",
+      "company": "Atlas Digital",
+      "location": "London, United Kingdom",
+      "work_model": "Hybrid",
+      "family": "Professional Services",
+      "classification": "Apply",
+      "score": 9.0,
+      "fit": 8.8,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-06T08:30:00Z",
+      "url": "https://example.test/jobs/atlas-ea",
+      "explanation": "Professional Services and practice leadership. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Professional Services and practice leadership",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-002",
+      "title": "Head of Data & AI Consulting",
+      "company": "Northstar Systems",
+      "location": "United Kingdom",
+      "work_model": "Remote",
+      "family": "Data & AI",
+      "classification": "Apply",
+      "score": 8.9,
+      "fit": 8.4,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-10T09:00:00Z",
+      "url": "https://example.test/jobs/northstar-data-ai",
+      "explanation": "Data and AI strategy or delivery. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Data and AI strategy or delivery",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-003",
+      "title": "Enterprise Architect, AI Platforms",
+      "company": "Solace Commerce",
+      "location": "London, UK",
+      "work_model": "Hybrid",
+      "family": "Enterprise Architecture",
+      "classification": "Investigate",
+      "score": 7.0,
+      "fit": 7.2,
+      "salary_confidence": 5.0,
+      "posted_at": "2026-10-09T12:00:00Z",
+      "url": "https://example.test/jobs/solace-enterprise-architect",
+      "explanation": "Enterprise and solution architecture. Compensation is not published and needs early confirmation.",
+      "evidence": [
+        "Enterprise and solution architecture",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Investigate"
+    },
+    {
+      "source_id": "fixture-009",
+      "title": "Engineering Manager, AI Infrastructure",
+      "company": "Alder Research",
+      "location": "London, UK",
+      "work_model": "Hybrid",
+      "family": "Engineering / Product",
+      "classification": "Watch",
+      "score": 4.4,
+      "fit": 0.9,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-10T13:00:00Z",
+      "url": "https://example.test/jobs/alder-engineering",
+      "explanation": "Adjacent senior role. Adjacent rather than core functional experience.",
+      "evidence": [],
+      "gaps": [
+        "Adjacent rather than core functional experience",
+        "Recent production engineering leadership is mandatory"
+      ],
+      "alternate_source_ids": [],
+      "expected_outcome": "Watch"
+    }
+  ],
+  "review_queue": [
+    {
+      "source_id": "fixture-001",
+      "title": "Director, Professional Services EMEA",
+      "company": "Beacon Cloud",
+      "location": "London, United Kingdom",
+      "work_model": "Hybrid",
+      "family": "Professional Services",
+      "classification": "Apply",
+      "score": 9.2,
+      "fit": 8.8,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-11T08:00:00Z",
+      "url": "https://example.test/jobs/beacon-ps-emea",
+      "explanation": "Professional Services and practice leadership. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Professional Services and practice leadership",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-005",
+      "title": "Director of Transformation Consulting",
+      "company": "Harbour Advisory",
+      "location": "Greater London",
+      "work_model": "Hybrid",
+      "family": "Professional Services",
+      "classification": "Apply",
+      "score": 9.1,
+      "fit": 8.8,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-08T08:00:00Z",
+      "url": "https://example.test/jobs/harbour-transformation",
+      "explanation": "Professional Services and practice leadership. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Professional Services and practice leadership",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [
+        "fixture-006"
+      ],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-010",
+      "title": "Practice Director, Enterprise Architecture",
+      "company": "Atlas Digital",
+      "location": "London, United Kingdom",
+      "work_model": "Hybrid",
+      "family": "Professional Services",
+      "classification": "Apply",
+      "score": 9.0,
+      "fit": 8.8,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-06T08:30:00Z",
+      "url": "https://example.test/jobs/atlas-ea",
+      "explanation": "Professional Services and practice leadership. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Professional Services and practice leadership",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-002",
+      "title": "Head of Data & AI Consulting",
+      "company": "Northstar Systems",
+      "location": "United Kingdom",
+      "work_model": "Remote",
+      "family": "Data & AI",
+      "classification": "Apply",
+      "score": 8.9,
+      "fit": 8.4,
+      "salary_confidence": 9.5,
+      "posted_at": "2026-10-10T09:00:00Z",
+      "url": "https://example.test/jobs/northstar-data-ai",
+      "explanation": "Data and AI strategy or delivery. No material requirement gap detected in the fixture.",
+      "evidence": [
+        "Data and AI strategy or delivery",
+        "Target seniority and decision scope",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Apply"
+    },
+    {
+      "source_id": "fixture-003",
+      "title": "Enterprise Architect, AI Platforms",
+      "company": "Solace Commerce",
+      "location": "London, UK",
+      "work_model": "Hybrid",
+      "family": "Enterprise Architecture",
+      "classification": "Investigate",
+      "score": 7.0,
+      "fit": 7.2,
+      "salary_confidence": 5.0,
+      "posted_at": "2026-10-09T12:00:00Z",
+      "url": "https://example.test/jobs/solace-enterprise-architect",
+      "explanation": "Enterprise and solution architecture. Compensation is not published and needs early confirmation.",
+      "evidence": [
+        "Enterprise and solution architecture",
+        "Executive and commercial responsibility"
+      ],
+      "gaps": [],
+      "alternate_source_ids": [],
+      "expected_outcome": "Investigate"
+    }
+  ],
+  "rejected": [
+    {
+      "source_id": "fixture-011",
+      "title": "Director, Data Platform Strategy",
+      "company": "Eastbank AI",
+      "reason": "Location is outside the configured region",
+      "expected_outcome": "Rejected"
+    },
+    {
+      "source_id": "fixture-004",
+      "title": "AI Strategy Senior Manager",
+      "company": "Meridian Advisory",
+      "reason": "Published salary range is below the configured floor",
+      "expected_outcome": "Rejected"
+    },
+    {
+      "source_id": "fixture-007",
+      "title": "Professional Services Director",
+      "company": "Boreal Platforms",
+      "reason": "Location is outside the configured region",
+      "expected_outcome": "Rejected"
+    },
+    {
+      "source_id": "fixture-008",
+      "title": "Principal Solutions Architect",
+      "company": "Helix Cloud",
+      "reason": "Employment type is not permanent full-time",
+      "expected_outcome": "Rejected"
+    },
+    {
+      "source_id": "fixture-012",
+      "title": "Enterprise Architecture Lead",
+      "company": "Cedar Works",
+      "reason": "Listing is older than the freshness limit",
+      "expected_outcome": "Rejected"
+    }
+  ],
+  "reproducibility_hash": "cbe31816fd712caa0f1019525a70b4625c295d44f11625fb283a1e90e0a3d0a3"
+}

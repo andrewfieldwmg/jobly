@@ -1,0 +1,80 @@
+{
+  "cases": 12,
+  "passed": 12,
+  "failed": 0,
+  "pass_rate": 1.0,
+  "checks": [
+    {
+      "source_id": "fixture-001",
+      "expected": "Apply",
+      "observed": "Apply",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-002",
+      "expected": "Apply",
+      "observed": "Apply",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-003",
+      "expected": "Investigate",
+      "observed": "Investigate",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-004",
+      "expected": "Rejected",
+      "observed": "Rejected",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-005",
+      "expected": "Apply",
+      "observed": "Apply",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-006",
+      "expected": "Apply",
+      "observed": "Apply",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-007",
+      "expected": "Rejected",
+      "observed": "Rejected",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-008",
+      "expected": "Rejected",
+      "observed": "Rejected",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-009",
+      "expected": "Watch",
+      "observed": "Watch",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-010",
+      "expected": "Apply",
+      "observed": "Apply",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-011",
+      "expected": "Rejected",
+      "observed": "Rejected",
+      "passed": true
+    },
+    {
+      "source_id": "fixture-012",
+      "expected": "Rejected",
+      "observed": "Rejected",
+      "passed": true
+    }
+  ]
+}
